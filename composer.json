@@ -5,5 +5,8 @@
         "psr-4": {
             "Pixney\\ImageBlockExtension\\": "src/"
         }
+    },
+    "require": {
+        "anomaly/blocks-module": "^1.2.0"
     }
 }
