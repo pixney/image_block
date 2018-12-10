@@ -10,6 +10,7 @@ class PixneyExtensionImageBlockCreateImageBlockFields extends Migration
      * @var array
      */
     protected $fields = [
-        'image' => 'anomaly.field_type.image',
+        'classes' => 'anomaly.field_type.text',
+        'image'   => 'anomaly.field_type.image',
     ];
 }
