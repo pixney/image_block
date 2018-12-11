@@ -9,6 +9,7 @@ class ImageBlockExtension extends BlockExtension
 {
     protected $provides = 'anomaly.module.blocks::block.image';
     protected $model    = BlockModel::class;
+    protected $wrapper  = 'pixney.extension.image_block::blocks/wrapper';
 
     public function getView()
     {
